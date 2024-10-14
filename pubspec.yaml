@@ -1,0 +1,33 @@
+name: ui_kosmos_v4
+description: A new Flutter package project.
+version: 1.0.4
+homepage: none
+publish_to: none
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+  flutter: '>=1.17.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  datetime_picker_formfield: ^2.0.0
+  intl: ^0.17.0
+  intl_phone_number_input: ^0.7.0+2
+  flutter_svg: ^1.0.3
+  iconsax: ^0.0.8
+  fluttertoast: ^8.0.9
+  auto_size_text: ^3.0.0
+  cached_network_image: ^3.2.0
+  hooks_riverpod: ^1.0.3
+  file_picker: ^4.6.1
+  easy_localization: null
+  core_kosmos:
+    git:
+      publish_to: none
+      url: YOUR_URL
+      ref: main
+  image_picker: ^0.8.5+3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+flutter: null
